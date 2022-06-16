@@ -6,7 +6,13 @@ module.exports = {
   networks: {
     hardhat: {
       allowUnlimitedContractSize: true,
-    }
+    },
+    ropsten: {
+      url: "https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      chainId: 3,
+      accounts: ['testtesttesttesttesttesttesttesttesttest'],
+      allowUnlimitedContractSize: true,
+    },
   },
   solidity: {
     compilers: [
